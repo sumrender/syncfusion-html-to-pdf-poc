@@ -3,6 +3,7 @@ using playground.Services;
 using Syncfusion.HtmlConverter;
 using Syncfusion.Licensing;
 using Syncfusion.Pdf;
+using Syncfusion.Pdf.Graphics;
 
 GeneratePdf();
 
@@ -16,10 +17,11 @@ void GeneratePdf()
     string header = templates.InvoiceHeader(new {
         CompanyName = "Syncfusion",
     });
-
+    SyncfusionLicenseProvider.RegisterLicense("Mgo+DSMBMAY9C3t2XVhhQlJHfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hTH5RdkdhWHtXcXZTT2Vc");
     HtmlToPdfConverter htmlConverter = new HtmlToPdfConverter();
     BlinkConverterSettings settings = ConfigureConverterSettings();
-    settings.Margin.Top = htmlConverter.GetHtmlBounds(header, string.Empty).Height - 380;
+    //settings.Margin.Top = htmlConverter.GetHtmlBounds(header, string.Empty).Height - 380;
+    settings.Margin.Top = GetHtmlSize(header);
     settings.HtmlHeader = header;
     htmlConverter.ConverterSettings = settings;
 
@@ -45,4 +47,24 @@ BlinkConverterSettings ConfigureConverterSettings()
     settings.MediaType = MediaType.Print;
 
     return settings;
+}
+static int GetHtmlSize(string headerHtml)
+{
+    HtmlToPdfConverter htmlConverter = new HtmlToPdfConverter(HtmlRenderingEngine.Blink);
+
+    BlinkConverterSettings blinkConverterSettings = new BlinkConverterSettings();
+
+    blinkConverterSettings.Margin.All = 0;
+
+    blinkConverterSettings.ViewPortSize = new Syncfusion.Drawing.Size(1024, 0);
+
+    blinkConverterSettings.SinglePageLayout = Syncfusion.Pdf.HtmlToPdf.SinglePageLayout.FitWidth;
+
+    htmlConverter.ConverterSettings = blinkConverterSettings;
+
+    PdfLayoutResult pdflayoutResult;
+
+    PdfDocument document = htmlConverter.Convert(headerHtml, " ", out pdflayoutResult);
+
+    return (int)pdflayoutResult.Bounds.Height;
 }

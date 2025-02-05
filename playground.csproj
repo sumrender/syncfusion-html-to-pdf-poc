@@ -9,6 +9,7 @@
 
   <ItemGroup>
 		<PackageReference Include="Syncfusion.HtmlToPdfConverter.Net.Mac" Version="28.1.36" />
+		<PackageReference Include="Syncfusion.HtmlToPdfConverter.Net.Linux" Version="28.1.36" />
 		<PackageReference Include="Handlebars.Net" Version="2.1.6" />
 	</ItemGroup>
 

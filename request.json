@@ -1,0 +1,1269 @@
+{
+    "Uid": "4bfd2b34-d500-4f3e-a660-f6ba9d52e2f6",
+    "DocumentDate": "2025-02-04T17:39:04.696577Z",
+    "DueDate": "2025-02-04T17:39:04.696577Z",
+    "Description": "Her er jeres faktura med de \u00F8nskede varer til kontoret.",
+    "Tenant": {
+        "Name": "Finance FULL",
+        "Uid": "4e6a2dcb-e01f-4746-879e-e2261c02b995"
+    },
+    "Customer": {
+        "Name": "Kunde ApS",
+        "Address": "Gadenavn 16",
+        "City": "H\u00F8rsholm",
+        "Country": "DK",
+        "PostalCode": "2970",
+        "Attention": "Hans Hansen",
+        "CustomerNumber": "37233994",
+        "IdentificationNumber": "37233994",
+        "Language": "DA",
+        "CustomerType": "COMPANY",
+        "SystemId": "12339935",
+        "CprNumber": "123123"
+    },
+    "SubTotal": {
+        "AmountInCurrency": 6652,
+        "AmountInBase": 2
+    },
+    "Total": {
+        "AmountInCurrency": 8148.83,
+        "AmountInBase": 2
+    },
+    "DueAmount": {
+        "AmountInCurrency": 1745,
+        "AmountInBase": 2
+    },
+    "PaymentTerm": {
+        "Uid": "97c1e197-bd03-4fc3-8ee8-3dc9bd637e3d",
+        "Name": "Net 30 Days.",
+        "IsSystem": false
+    },
+    "BookAccount": {
+        "AccountUid": "133b18d2-5713-416f-8c2f-cf3cb9f2b189",
+        "AccountNumber": "XXXX",
+        "AccountName": "Lorem Ipsum"
+    },
+    "BookDate": "2025-02-04T17:39:04.696577Z",
+    "InvoiceNumber": "39935",
+    "CurrencyCode": "DKK",
+    "NumberOfDecimals": 2,
+    "LastPdfRequestUid": "200fd648-e5ad-4fa1-b517-77cddcb46f43",
+    "SendRequest": null,
+    "Lines": [
+        {
+            "Price": 40,
+            "ProductUid": "",
+            "ProductName": "A4 Kopipapir, 80gsm, 500 Ark",
+            "ProductCode": "1010",
+            "BookAccount": null,
+            "Description": "Description for product A4 Kopipapir, 80gsm, 500 Ark",
+            "Quantity": 3,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Pakke",
+            "Discount": {
+                "AmountInCurrency": 2,
+                "AmountInBase": 2,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 28.50,
+                "AmountInBase": 28.50
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 114,
+                "AmountInBase": 114
+            },
+            "Total": {
+                "AmountInCurrency": 142.50,
+                "AmountInBase": 142.50
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 120,
+            "GrossDiscount": 6,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 12000,
+            "ProductUid": "",
+            "ProductName": "B\u00E6rbar computer: En powerhouse laptop med Intel Core i7, 16GB RAM, 512GB SSD, og Full HD sk\u00E6rm. Perfekt til den travle professionelle, pakket med sikkerhedsfunktioner og klar til hele dagen brug.",
+            "ProductCode": "1020",
+            "BookAccount": null,
+            "Description": "Description for product B\u00E6rbar computer: En powerhouse laptop med Intel Core i7, 16GB RAM, 512GB SSD, og Full HD sk\u00E6rm. Perfekt til den travle professionelle, pakket med sikkerhedsfunktioner og klar til hele dagen brug.",
+            "Quantity": 1,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 600,
+                "AmountInBase": 600,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 0,
+                "AmountInBase": 0
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 0
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "vatValueCodeBVarerIKey",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 11400,
+                "AmountInBase": 11400
+            },
+            "Total": {
+                "AmountInCurrency": 11400,
+                "AmountInBase": 11400
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 12000,
+            "GrossDiscount": 600,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 200,
+            "ProductUid": "",
+            "ProductName": "Ergonomisk Tr\u00E5dl\u00F8s Mus,",
+            "ProductCode": "1030",
+            "BookAccount": null,
+            "Description": "Description for product Ergonomisk Tr\u00E5dl\u00F8s Mus,",
+            "Quantity": 2,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 10,
+                "AmountInBase": 10,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 47.50,
+                "AmountInBase": 47.50
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 190,
+                "AmountInBase": 190
+            },
+            "Total": {
+                "AmountInCurrency": 237.50,
+                "AmountInBase": 237.50
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 400,
+            "GrossDiscount": 20,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 100,
+            "ProductUid": "",
+            "ProductName": "USB-C Opladerkabel, 2m",
+            "ProductCode": "1040",
+            "BookAccount": null,
+            "Description": "Description for product USB-C Opladerkabel, 2m",
+            "Quantity": 3,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 5,
+                "AmountInBase": 5,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 23.75,
+                "AmountInBase": 23.75
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 95,
+                "AmountInBase": 95
+            },
+            "Total": {
+                "AmountInCurrency": 118.75,
+                "AmountInBase": 118.75
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 300,
+            "GrossDiscount": 15,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 600,
+            "ProductUid": "",
+            "ProductName": "Ekstern Harddisk, 2TB, USB 3.0",
+            "ProductCode": "1050",
+            "BookAccount": null,
+            "Description": "Description for product Ekstern Harddisk, 2TB, USB 3.0",
+            "Quantity": 2,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 30,
+                "AmountInBase": 30,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 142.50,
+                "AmountInBase": 142.50
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 570,
+                "AmountInBase": 570
+            },
+            "Total": {
+                "AmountInCurrency": 712.50,
+                "AmountInBase": 712.50
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 1200,
+            "GrossDiscount": 60,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 800,
+            "ProductUid": "",
+            "ProductName": "Printer, Multifunktion",
+            "ProductCode": "1060",
+            "BookAccount": null,
+            "Description": "Description for product Printer, Multifunktion",
+            "Quantity": 1,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 40,
+                "AmountInBase": 40,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 190,
+                "AmountInBase": 190
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 760,
+                "AmountInBase": 760
+            },
+            "Total": {
+                "AmountInCurrency": 950,
+                "AmountInBase": 950
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 800,
+            "GrossDiscount": 40,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 4200,
+            "ProductUid": "",
+            "ProductName": "Tablet, 64GB, Wi-Fi",
+            "ProductCode": "1070",
+            "BookAccount": null,
+            "Description": "Description for product Tablet, 64GB, Wi-Fi",
+            "Quantity": 1,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 210,
+                "AmountInBase": 210,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 997.50,
+                "AmountInBase": 997.50
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 3990,
+                "AmountInBase": 3990
+            },
+            "Total": {
+                "AmountInCurrency": 4987.50,
+                "AmountInBase": 4987.50
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 4200,
+            "GrossDiscount": 210,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 300,
+            "ProductUid": "",
+            "ProductName": "Skrivebordslampe med LED, D\u00E6mpbar",
+            "ProductCode": "1080",
+            "BookAccount": null,
+            "Description": "Description for product Skrivebordslampe med LED, D\u00E6mpbar",
+            "Quantity": 3,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 15,
+                "AmountInBase": 15,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 71.25,
+                "AmountInBase": 71.25
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 285,
+                "AmountInBase": 285
+            },
+            "Total": {
+                "AmountInCurrency": 356.25,
+                "AmountInBase": 356.25
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 900,
+            "GrossDiscount": 45,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 150,
+            "ProductUid": "",
+            "ProductName": "Ledning, l\u00F8bende meter",
+            "ProductCode": "1090",
+            "BookAccount": null,
+            "Description": "Description for product Ledning, l\u00F8bende meter",
+            "Quantity": 4.5,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "meter",
+            "Discount": {
+                "AmountInCurrency": 7.50,
+                "AmountInBase": 7.50,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 35.63,
+                "AmountInBase": 35.63
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 142.50,
+                "AmountInBase": 142.50
+            },
+            "Total": {
+                "AmountInCurrency": 178.13,
+                "AmountInBase": 178.13
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 675.0,
+            "GrossDiscount": 33.75,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 150,
+            "ProductUid": "",
+            "ProductName": "Ledning, l\u00F8bende meter",
+            "ProductCode": "1090",
+            "BookAccount": null,
+            "Description": "Description for product Ledning, l\u00F8bende meter",
+            "Quantity": 4.55,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "meter",
+            "Discount": {
+                "AmountInCurrency": 7.50,
+                "AmountInBase": 7.50,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 35.63,
+                "AmountInBase": 35.63
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 142.50,
+                "AmountInBase": 142.50
+            },
+            "Total": {
+                "AmountInCurrency": 178.13,
+                "AmountInBase": 178.13
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 682.50,
+            "GrossDiscount": 34.125,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 150,
+            "ProductUid": "",
+            "ProductName": "Ledning, l\u00F8bende meter",
+            "ProductCode": "1090",
+            "BookAccount": null,
+            "Description": "Description for product Ledning, l\u00F8bende meter",
+            "Quantity": 4.555,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "meter",
+            "Discount": {
+                "AmountInCurrency": 7.50,
+                "AmountInBase": 7.50,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 35.63,
+                "AmountInBase": 35.63
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 142.50,
+                "AmountInBase": 142.50
+            },
+            "Total": {
+                "AmountInCurrency": 178.13,
+                "AmountInBase": 178.13
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 683.250,
+            "GrossDiscount": 34.1625,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 120,
+            "ProductUid": "",
+            "ProductName": "Whiteboard Marker, Assorterede Farver, S\u00E6t med 8",
+            "ProductCode": "1120",
+            "BookAccount": null,
+            "Description": "Description for product Whiteboard Marker, Assorterede Farver, S\u00E6t med 8",
+            "Quantity": 1,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "S\u00E6t",
+            "Discount": {
+                "AmountInCurrency": 6,
+                "AmountInBase": 6,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 28.50,
+                "AmountInBase": 28.50
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 114,
+                "AmountInBase": 114
+            },
+            "Total": {
+                "AmountInCurrency": 142.50,
+                "AmountInBase": 142.50
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 120,
+            "GrossDiscount": 6,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 150,
+            "ProductUid": "",
+            "ProductName": "Skrivebordsorganisator, Tr\u00E6",
+            "ProductCode": "1130",
+            "BookAccount": null,
+            "Description": "Description for product Skrivebordsorganisator, Tr\u00E6",
+            "Quantity": 2,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 7.50,
+                "AmountInBase": 7.50,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 35.63,
+                "AmountInBase": 35.63
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 142.50,
+                "AmountInBase": 142.50
+            },
+            "Total": {
+                "AmountInCurrency": 178.13,
+                "AmountInBase": 178.13
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 300,
+            "GrossDiscount": 15,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 200,
+            "ProductUid": "",
+            "ProductName": "Hukommelseskort SDXC, 128GB, Klasse 10",
+            "ProductCode": "1140",
+            "BookAccount": null,
+            "Description": "Description for product Hukommelseskort SDXC, 128GB, Klasse 10",
+            "Quantity": 3,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 10,
+                "AmountInBase": 10,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 47.50,
+                "AmountInBase": 47.50
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 190,
+                "AmountInBase": 190
+            },
+            "Total": {
+                "AmountInCurrency": 237.50,
+                "AmountInBase": 237.50
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 600,
+            "GrossDiscount": 30,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 500,
+            "ProductUid": "",
+            "ProductName": "Anti-fatigue m\u00E5tte til st\u00E5ende skriveborde",
+            "ProductCode": "1150",
+            "BookAccount": null,
+            "Description": "Description for product Anti-fatigue m\u00E5tte til st\u00E5ende skriveborde",
+            "Quantity": 1,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 25,
+                "AmountInBase": 25,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 118.75,
+                "AmountInBase": 118.75
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 475,
+                "AmountInBase": 475
+            },
+            "Total": {
+                "AmountInCurrency": 593.75,
+                "AmountInBase": 593.75
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 500,
+            "GrossDiscount": 25,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 150,
+            "ProductUid": "",
+            "ProductName": "HDMI-kabel, 4K, 3m",
+            "ProductCode": "1160",
+            "BookAccount": null,
+            "Description": "Description for product HDMI-kabel, 4K, 3m",
+            "Quantity": 4,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 7.50,
+                "AmountInBase": 7.50,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 35.63,
+                "AmountInBase": 35.63
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 142.50,
+                "AmountInBase": 142.50
+            },
+            "Total": {
+                "AmountInCurrency": 178.13,
+                "AmountInBase": 178.13
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 600,
+            "GrossDiscount": 30,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 250,
+            "ProductUid": "",
+            "ProductName": "Tr\u00E5dl\u00F8st Tastatur, Kompakt Design",
+            "ProductCode": "1100",
+            "BookAccount": null,
+            "Description": "Description for product Tr\u00E5dl\u00F8st Tastatur, Kompakt Design",
+            "Quantity": 2,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 12.50,
+                "AmountInBase": 12.50,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 59.38,
+                "AmountInBase": 59.38
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 237.50,
+                "AmountInBase": 237.50
+            },
+            "Total": {
+                "AmountInCurrency": 296.88,
+                "AmountInBase": 296.88
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 500,
+            "GrossDiscount": 25,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 75,
+            "ProductUid": "",
+            "ProductName": "Notesb\u00F8ger, Linjeret, A5, Pakke med 5",
+            "ProductCode": "1110",
+            "BookAccount": null,
+            "Description": "Description for product Notesb\u00F8ger, Linjeret, A5, Pakke med 5",
+            "Quantity": 2,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Pakke",
+            "Discount": {
+                "AmountInCurrency": 3.75,
+                "AmountInBase": 3.75,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 17.81,
+                "AmountInBase": 17.81
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 71.25,
+                "AmountInBase": 71.25
+            },
+            "Total": {
+                "AmountInCurrency": 89.06,
+                "AmountInBase": 89.06
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 150,
+            "GrossDiscount": 7.5,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 250,
+            "ProductUid": "",
+            "ProductName": "Tr\u00E5dl\u00F8s Oplader til Smartphones",
+            "ProductCode": "1170",
+            "BookAccount": null,
+            "Description": "Description for product Tr\u00E5dl\u00F8s Oplader til Smartphones",
+            "Quantity": 3,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 12.50,
+                "AmountInBase": 12.50,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 59.38,
+                "AmountInBase": 59.38
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 237.50,
+                "AmountInBase": 237.50
+            },
+            "Total": {
+                "AmountInCurrency": 296.88,
+                "AmountInBase": 296.88
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 750,
+            "GrossDiscount": 37.5,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 180,
+            "ProductUid": "",
+            "ProductName": "Ergonomisk Fodst\u00F8tte",
+            "ProductCode": "1180",
+            "BookAccount": null,
+            "Description": "Description for product Ergonomisk Fodst\u00F8tte",
+            "Quantity": 2,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 9,
+                "AmountInBase": 9,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 42.75,
+                "AmountInBase": 42.75
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 171,
+                "AmountInBase": 171
+            },
+            "Total": {
+                "AmountInCurrency": 213.75,
+                "AmountInBase": 213.75
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 360,
+            "GrossDiscount": 18,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 100,
+            "ProductUid": "",
+            "ProductName": "Kabelorganiserings\u00E6t",
+            "ProductCode": "1190",
+            "BookAccount": null,
+            "Description": "Description for product Kabelorganiserings\u00E6t",
+            "Quantity": 1,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "S\u00E6t",
+            "Discount": {
+                "AmountInCurrency": 5,
+                "AmountInBase": 5,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 23.75,
+                "AmountInBase": 23.75
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 95,
+                "AmountInBase": 95
+            },
+            "Total": {
+                "AmountInCurrency": 118.75,
+                "AmountInBase": 118.75
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 100,
+            "GrossDiscount": 5,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 200,
+            "ProductUid": "",
+            "ProductName": "Dokumentholder, Justerbar",
+            "ProductCode": "1200",
+            "BookAccount": null,
+            "Description": "Description for product Dokumentholder, Justerbar",
+            "Quantity": 2,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 10,
+                "AmountInBase": 10,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 47.50,
+                "AmountInBase": 47.50
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 190,
+                "AmountInBase": 190
+            },
+            "Total": {
+                "AmountInCurrency": 237.50,
+                "AmountInBase": 237.50
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 400,
+            "GrossDiscount": 20,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 75,
+            "ProductUid": "",
+            "ProductName": "Sk\u00E6rmreng\u00F8ringss\u00E6t",
+            "ProductCode": "1210",
+            "BookAccount": null,
+            "Description": "Description for product Sk\u00E6rmreng\u00F8ringss\u00E6t",
+            "Quantity": 4,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "S\u00E6t",
+            "Discount": {
+                "AmountInCurrency": 3.75,
+                "AmountInBase": 3.75,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 17.81,
+                "AmountInBase": 17.81
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 71.25,
+                "AmountInBase": 71.25
+            },
+            "Total": {
+                "AmountInCurrency": 89.06,
+                "AmountInBase": 89.06
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 300,
+            "GrossDiscount": 15,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 550,
+            "ProductUid": "",
+            "ProductName": "Lydisolerende Hovedtelefoner",
+            "ProductCode": "1220",
+            "BookAccount": null,
+            "Description": "Description for product Lydisolerende Hovedtelefoner",
+            "Quantity": 2,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 27.50,
+                "AmountInBase": 27.50,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 130.63,
+                "AmountInBase": 130.63
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 552.50,
+                "AmountInBase": 552.50
+            },
+            "Total": {
+                "AmountInCurrency": 653.13,
+                "AmountInBase": 653.13
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 1100,
+            "GrossDiscount": 55,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 1200,
+            "ProductUid": "",
+            "ProductName": "Digital Notesbog og Pen",
+            "ProductCode": "1230",
+            "BookAccount": null,
+            "Description": "Description for product Digital Notesbog og Pen",
+            "Quantity": 1,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 60,
+                "AmountInBase": 60,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 285,
+                "AmountInBase": 285
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 1140,
+                "AmountInBase": 1140
+            },
+            "Total": {
+                "AmountInCurrency": 1425,
+                "AmountInBase": 1425
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 1200,
+            "GrossDiscount": 60,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 150,
+            "ProductUid": "",
+            "ProductName": "USB Hub, 4 Porte",
+            "ProductCode": "1240",
+            "BookAccount": null,
+            "Description": "Description for product USB Hub, 4 Porte",
+            "Quantity": 3,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 7.50,
+                "AmountInBase": 7.50,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 35.63,
+                "AmountInBase": 35.63
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 142.50,
+                "AmountInBase": 142.50
+            },
+            "Total": {
+                "AmountInCurrency": 178.13,
+                "AmountInBase": 178.13
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 450,
+            "GrossDiscount": 22.5,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        },
+        {
+            "Price": 400,
+            "ProductUid": "",
+            "ProductName": "Magnetisk Whiteboard, 120x90 cm",
+            "ProductCode": "1250",
+            "BookAccount": null,
+            "Description": "Description for product Magnetisk Whiteboard, 120x90 cm",
+            "Quantity": 1,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+            "UnitName": "Stk.",
+            "Discount": {
+                "AmountInCurrency": 20,
+                "AmountInBase": 20,
+                "DiscountPercent": 0.05
+            },
+            "VatAmount": {
+                "AmountInCurrency": 95,
+                "AmountInBase": 95
+            },
+            "VatGroup": {
+                "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+                "VatGroupCode": "1001",
+                "VatGroupName": "Moms",
+                "VatPercentage": 25
+            },
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 380,
+                "AmountInBase": 380
+            },
+            "Total": {
+                "AmountInCurrency": 475,
+                "AmountInBase": 475
+            },
+            "NumberOfDecimals": 2,
+            "GrossPrice": 400,
+            "GrossDiscount": 20,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        }
+    ],
+    "VatAmounts": [
+        {
+            "VatName": "Moms 0",
+            "VatPercentage": 0,
+            "VatAmount": 0,
+            "SubtotalAmount": 665
+        },
+        {
+            "VatName": "Moms 25",
+            "VatPercentage": 25,
+            "VatAmount": 1496.83,
+            "SubtotalAmount": 5987
+        }
+    ],
+    "InvoiceType": "INVOICE",
+    "InvoiceStatus": "BOOKED",
+    "FikCode": "\u002B71\u003C000000000000000\u002B00000000\u003C",
+    "AttentionTo": "Attention to",
+    "InvoicePdfTemplateUid": "b0806980-5985-4b08-b2f9-261c8417aa55",
+    "LinkedInvoices": [],
+    "TotalString": "8.148,83",
+    "SubTotalString": "6.652,00",
+    "DueAmountString": "1.745,00",
+    "BookAccountString": "XXXX Lorem Ipsum ",
+    "BillToParent": false,
+    "CollectiveInvoice": false,
+    "ChildCustomer": null
+}

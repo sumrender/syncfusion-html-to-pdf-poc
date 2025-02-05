@@ -1,0 +1,44 @@
+{
+"Price": 40,
+            "ProductUid": "",
+"ProductName": "A4 Kopipapir, 80gsm, 500 Ark",
+"ProductCode": "1010",
+            "BookAccount": null,
+            "Description": "Description for product A4 Kopipapir, 80gsm, 500 Ark",
+"Quantity": 3,
+            "UnitUid": "00000000-0000-0000-0000-000000000000",
+"UnitName": "Pakke",
+"Discount": {
+    "AmountInCurrency": 2,
+    "AmountInBase": 2,
+    "DiscountPercent": 0.05
+},
+"VatAmount": {
+    "AmountInCurrency": 28.50,
+    "AmountInBase": 28.50
+},
+"VatGroup": {
+    "VatGroupUid": "00000000-0000-0000-0000-000000000000",
+    "VatGroupCode": "1001",
+    "VatGroupName": "Moms",
+    "VatPercentage": 25
+},
+            "VatValue": {
+                "Uid": "00000000-0000-0000-0000-000000000000",
+                "Code": "1002",
+                "Name": "Moms"
+            },
+            "SubTotal": {
+                "AmountInCurrency": 114,
+                "AmountInBase": 114
+            },
+"Total": {
+    "AmountInCurrency": 142.50,
+    "AmountInBase": 142.50
+},
+            "NumberOfDecimals": 2,
+"GrossPrice": 120,
+"GrossDiscount": 6,
+            "PeriodFrom": "2024-02-09T10:37:00",
+            "PeriodTo": "2024-10-12T10:37:00"
+        }

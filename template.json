@@ -1,0 +1,328 @@
+{
+    "Tenant": {
+        "Id": 1,
+        "Uid": "4e6a2dcb-e01f-4746-879e-e2261c02b995"
+    },
+    "IsDefault": true,
+    "Name": "Layout 1",
+    "Status": {
+        "Code": "DRAFT"
+    },
+    "FontSize": 8.000000,
+    "RowHeight": 2.000000,
+    "TotalAmountArea": {
+        "Code": "NET"
+    },
+    "LogoFileName": "logo.png",
+    "LogoUrl": "http://127.0.0.1:10000/devstoreaccount1/indigo-sales/invoiceTemplates/4e6a2dcb-e01f-4746-879e-e2261c02b995/69d907a5-321a-4725-a4c9-8a9c39c4302d/logo.png?sv=2023-01-03\u0026se=2025-02-04T02%3A50%3A09Z\u0026sr=b\u0026sp=r\u0026sig=v1f%2BGfkFP9UGL6awFh96shhpni0wKUZItyPDlWOdnqo%3D",
+    "PaymentTermsTemplate": "",
+    "InvoiceNoLabel": "",
+    "InvoiceLabel": "",
+    "InvoiceDateLabel": "",
+    "DueDateLabel": "",
+    "CustomerNoLabel": "",
+    "SubtotalLabel": "",
+    "TotalLabel": "",
+    "VatLabel": "",
+    "CreditNoteLabel": "",
+    "CreditNoteNoLabel": "",
+    "CreditNoteDateLabel": "",
+    "RelatedInvoiceNoLabel": "",
+    "UsedInCustomersCount": 10,
+    "UsedInDraftInvoicesCount": 0,
+    "IsPreviewUpToDate": true,
+    "CvrNumberLabel": "",
+    "CustomerAttentionLabel": "",
+    "ReverseChargeLabel": "",
+    "CreatedBy": {
+        "EmailAddress": "demo-indigo@zenegy.com",
+        "FullName": "Demo Indigo",
+        "UserUid": "bc0a0251-f66c-459c-a90b-8a674f71f441"
+    },
+    "EmailSubjectAttachment": "",
+    "EmailMessageAttachment": "",
+    "EmailSubjectLink": "",
+    "EmailMessageLink": "",
+    "FooterAlignment": {
+        "RdlcFormat": "Right",
+        "Code": "RIGHT"
+    },
+    "FooterText": "Due date: {{DueDate}}, Iban Number: {{IbanNo}}",
+    "DecimalSeparator": {
+        "Code": "COMMA"
+    },
+    "Columns": [
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": true,
+            "Name": "ProductNo",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Left",
+                "Code": "LEFT"
+            },
+            "Width": 21.000000,
+            "HideIfZero": false,
+            "Order": 1,
+            "Id": 1,
+            "Uid": "6b6bfc0a-080e-4214-b2d8-d450a545d543",
+            "CreatedOn": "2023-01-16T10:37:00",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": true,
+            "Name": "ProductName",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Left",
+                "Code": "LEFT"
+            },
+            "Width": 75.000000,
+            "HideIfZero": false,
+            "Order": 2,
+            "Id": 2,
+            "Uid": "a1583b19-8ff9-4e54-9607-2511b5bb7f40",
+            "CreatedOn": "2023-01-16T10:37:00",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": true,
+            "Name": "Quantity",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 22.000000,
+            "HideIfZero": false,
+            "Order": 3,
+            "Id": 3,
+            "Uid": "8faca557-129a-4c01-b13d-c9684800b6ef",
+            "CreatedOn": "2023-01-16T10:37:00",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": true,
+            "Name": "Unit",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Left",
+                "Code": "LEFT"
+            },
+            "Width": 18.000000,
+            "HideIfZero": true,
+            "Order": 4,
+            "Id": 4,
+            "Uid": "34688a7c-760f-4823-ae9e-c488086e1fec",
+            "CreatedOn": "2023-01-16T10:37:00",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": false,
+            "Name": "Price",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 0.000000,
+            "HideIfZero": false,
+            "Order": 5,
+            "Id": 5,
+            "Uid": "876fad30-61d1-4d20-9520-f7e3046e3395",
+            "CreatedOn": "2023-01-16T10:37:00",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": false,
+            "Name": "Discount",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 0.000000,
+            "HideIfZero": true,
+            "Order": 6,
+            "Id": 6,
+            "Uid": "cb5d9236-e42a-4b9c-94fb-c9d49dab8aca",
+            "CreatedOn": "2023-01-16T10:37:00",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": true,
+            "Name": "Total",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 23.000000,
+            "HideIfZero": false,
+            "Order": 7,
+            "Id": 7,
+            "Uid": "46064ac1-497a-4fda-b35e-6414232c6c9c",
+            "CreatedOn": "2023-01-16T10:37:00",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": false,
+            "Name": "NetDiscount",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 0.000000,
+            "HideIfZero": true,
+            "Order": 8,
+            "Id": 8,
+            "Uid": "59001e85-ac1b-4e16-b9d5-aeaa24f3d181",
+            "CreatedOn": "2024-03-12T07:56:50",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": true,
+            "Name": "DiscountPercent",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 20.000000,
+            "HideIfZero": true,
+            "Order": 9,
+            "Id": 9,
+            "Uid": "264785b1-2740-4dce-9419-de8c74b3a579",
+            "CreatedOn": "2024-03-12T07:56:50",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": true,
+            "Name": "NetPrice",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 23.000000,
+            "HideIfZero": false,
+            "Order": 10,
+            "Id": 10,
+            "Uid": "d02bdbce-a264-40bf-9af0-aab84c1eda8b",
+            "CreatedOn": "2024-03-12T07:56:50",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": false,
+            "Name": "Amount",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 0.000000,
+            "HideIfZero": false,
+            "Order": 11,
+            "Id": 11,
+            "Uid": "093520bb-2589-40cf-9e1c-4ae2fd6a856a",
+            "CreatedOn": "2024-03-12T07:56:50",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": false,
+            "Name": "VatAmount",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 0.000000,
+            "HideIfZero": false,
+            "Order": 12,
+            "Id": 12,
+            "Uid": "9c271a79-e0bb-4d3a-b1c1-6cd008b76ed1",
+            "CreatedOn": "2024-03-12T07:56:50",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        },
+        {
+            "InvoicePdfTemplateFk": 1,
+            "Include": false,
+            "Name": "VatRate",
+            "Alias": "",
+            "Alignment": {
+                "RdlcFormat": "Right",
+                "Code": "RIGHT"
+            },
+            "Width": 0.000000,
+            "HideIfZero": false,
+            "Order": 13,
+            "Id": 13,
+            "Uid": "8d3504ee-548a-438f-814c-972d7a567054",
+            "CreatedOn": "2024-03-12T07:56:50",
+            "DeletedOn": null,
+            "State": 2,
+            "IsStateChanged": false,
+            "DomainEvents": []
+        }
+    ],
+    "Attachments": [],
+    "RegardingToLabel": "",
+    "EventHubEvents": [],
+    "IntegrationEvents": [],
+    "WebhookEventData": [],
+    "Id": 1,
+    "Uid": "69d907a5-321a-4725-a4c9-8a9c39c4302d",
+    "CreatedOn": "2024-01-15T10:00:00",
+    "DeletedOn": null,
+    "State": 2,
+    "IsStateChanged": false,
+    "DomainEvents": []
+}
