@@ -4,33 +4,30 @@ using Syncfusion.HtmlConverter;
 using Syncfusion.Licensing;
 using Syncfusion.Pdf;
 
-GeneratePdf();
+Main();
 
-void GeneratePdf()
+void Main()
 {
-    Console.WriteLine("Generating Pdf...");
+    Console.WriteLine("Generating PDFs...");
     BetaInvoiceHandlebarsTemplates templates = new BetaInvoiceHandlebarsTemplates();
-    string body = templates.Invoice(new {
-        ItemName = "Item 1",
-    });
-    string header = templates.InvoiceHeader(new {
-        CompanyName = "Syncfusion",
-    });
+    GeneratePdf("current", templates.GetCurrentHtml());
+    GeneratePdf("want", templates.GetWantHtml());
+    Console.WriteLine("PDFs generated successfully");
+}
 
+void GeneratePdf(string fileName, string html)
+{
     HtmlToPdfConverter htmlConverter = new HtmlToPdfConverter();
     BlinkConverterSettings settings = ConfigureConverterSettings();
-    settings.Margin.Top = htmlConverter.GetHtmlBounds(header, string.Empty).Height - 380;
-    settings.HtmlHeader = header;
     htmlConverter.ConverterSettings = settings;
 
-    PdfDocument document = htmlConverter.Convert(body, string.Empty);
+    PdfDocument document = htmlConverter.Convert(html, string.Empty);
 
     MemoryStream stream = new MemoryStream();
     document.Save(stream);
     document.Close(true);
-    File.WriteAllBytes("../../../Output.pdf", stream.ToArray());
-
-    Console.WriteLine("PDF generated successfully");
+    File.WriteAllBytes($"../../../{fileName}.pdf", stream.ToArray());
+    Console.WriteLine($"PDF generated successfully: {fileName}.pdf");
 }
 
 

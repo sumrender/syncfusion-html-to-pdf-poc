@@ -1,62 +1,64 @@
 namespace playground.Services
 {
+    using System.Reflection;
     using HandlebarsDotNet;
 
     public class BetaInvoiceHandlebarsTemplates
     {
-        public HandlebarsTemplate<object, object> InvoiceHeader { get; private set; }
+        public HandlebarsTemplate<object, object> CurrentTemplate { get; private set; }
 
-        public HandlebarsTemplate<object, object> Invoice { get; private set; }
+        public HandlebarsTemplate<object, object> WantTemplate { get; private set; }
+
+        public string headerRowOne = "";
+
+        public string headerRowTwo = "";
+
+        public string table = "";
+
+        string GetFileContent(string path)
+        {
+            string projectRoot = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "../../.."));
+            string templatePath = Path.Combine(projectRoot, path);
+
+            if (!File.Exists(templatePath))
+            {
+                throw new FileNotFoundException($"Template file not found: {templatePath}");
+            }
+
+            return File.ReadAllText(templatePath);
+        }
+
 
         public BetaInvoiceHandlebarsTemplates()
         {
-            InvoiceHeader = Handlebars.Compile(HeaderHtml);
-            Invoice = Handlebars.Compile(BodyHtml);
-        }
-        
-        private string HeaderHtml = @"
-        <div style='width: 100%; height: 100%; font-size: 10px;'>
-            <h1>1 {{CompanyName}}</h1>
-            <h1>2 {{CompanyName}}</h1>
-            <h1>3 {{CompanyName}}</h1>
-            <h1>4 {{CompanyName}}</h1>
-            <h1>5 {{CompanyName}}</h1>
-            <h1>6 {{CompanyName}}</h1>
-            <h1>7 {{CompanyName}}</h1>
-        </div>
-        ";
+            // set data
+            headerRowOne = GetFileContent("hbs/header-row-one.hbs");
+            headerRowTwo = GetFileContent("hbs/header-row-two.hbs");
+            table = GetFileContent("hbs/table.hbs");
 
-        private string BodyHtml = @"
-          <div>
-            <h1>Body Item name</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            <h1>{{ItemName}}</h1>
-            </div>
-        ";
+            // set templates
+            CurrentTemplate = Handlebars.Compile(GetFileContent("hbs/current.hbs"));
+            WantTemplate = Handlebars.Compile(GetFileContent("hbs/want.hbs"));
+        }
+
+        public string GetCurrentHtml()
+        {
+            return CurrentTemplate(new
+            {
+                HeaderRowOne = headerRowOne,
+                HeaderRowTwo = headerRowTwo,
+                Table = table
+            });
+        }
+
+        public string GetWantHtml()
+        {
+            return WantTemplate(new
+            {
+                HeaderRowOne = headerRowOne,
+                HeaderRowTwo = headerRowTwo,
+                Table = table
+            });
+        }
     }
 }
