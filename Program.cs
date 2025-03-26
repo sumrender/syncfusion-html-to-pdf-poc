@@ -3,6 +3,7 @@ using playground.Services;
 using Syncfusion.HtmlConverter;
 using Syncfusion.Licensing;
 using Syncfusion.Pdf;
+using Syncfusion.Pdf.Graphics;
 
 Main();
 
@@ -10,8 +11,7 @@ void Main()
 {
     Console.WriteLine("Generating PDFs...");
     BetaInvoiceHandlebarsTemplates templates = new BetaInvoiceHandlebarsTemplates();
-    GeneratePdf("current", templates.GetCurrentHtml());
-    GeneratePdf("want", templates.GetWantHtml());
+    GeneratePdf("soln", templates.GetSolnHtml());
     Console.WriteLine("PDFs generated successfully");
 }
 
@@ -33,13 +33,17 @@ void GeneratePdf(string fileName, string html)
 
 BlinkConverterSettings ConfigureConverterSettings()
 {
-    //Set command line arguments to run without sandbox.
-    // https://help.syncfusion.com/document-processing/pdf/conversions/html-to-pdf/net/troubleshooting#failed-to-launch-chromium-running-as-root-without-no-sandbox-is-not-supported
     BlinkConverterSettings settings = new BlinkConverterSettings();
     settings.CommandLineArguments.Add("--no-sandbox");
     settings.CommandLineArguments.Add("--disable-setuid-sandbox");
+
+    settings.Margin.Top = 32;
+    settings.Margin.Left = 52;
+    settings.Margin.Right = 29;
     settings.EnableAutoScaling = true;
     settings.MediaType = MediaType.Print;
+    settings.EnableJavaScript = true;
+    settings.AdditionalDelay = 1000;
 
     return settings;
 }

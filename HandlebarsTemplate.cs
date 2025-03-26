@@ -1,19 +1,10 @@
 namespace playground.Services
 {
-    using System.Reflection;
     using HandlebarsDotNet;
 
     public class BetaInvoiceHandlebarsTemplates
     {
-        public HandlebarsTemplate<object, object> CurrentTemplate { get; private set; }
-
-        public HandlebarsTemplate<object, object> WantTemplate { get; private set; }
-
-        public string headerRowOne = "";
-
-        public string headerRowTwo = "";
-
-        public string table = "";
+        public HandlebarsTemplate<object, object> SolnTemplate { get; private set; }
 
         string GetFileContent(string path)
         {
@@ -31,34 +22,13 @@ namespace playground.Services
 
         public BetaInvoiceHandlebarsTemplates()
         {
-            // set data
-            headerRowOne = GetFileContent("hbs/header-row-one.hbs");
-            headerRowTwo = GetFileContent("hbs/header-row-two.hbs");
-            table = GetFileContent("hbs/table.hbs");
-
-            // set templates
-            CurrentTemplate = Handlebars.Compile(GetFileContent("hbs/current.hbs"));
-            WantTemplate = Handlebars.Compile(GetFileContent("hbs/want.hbs"));
+            SolnTemplate = Handlebars.Compile(GetFileContent("hbs/soln.hbs"));
         }
 
-        public string GetCurrentHtml()
-        {
-            return CurrentTemplate(new
-            {
-                HeaderRowOne = headerRowOne,
-                HeaderRowTwo = headerRowTwo,
-                Table = table
-            });
-        }
 
-        public string GetWantHtml()
+        public string GetSolnHtml()
         {
-            return WantTemplate(new
-            {
-                HeaderRowOne = headerRowOne,
-                HeaderRowTwo = headerRowTwo,
-                Table = table
-            });
+            return SolnTemplate(new{});
         }
     }
 }
